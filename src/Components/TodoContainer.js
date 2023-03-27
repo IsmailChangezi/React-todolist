@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import ToDoList from './TodosList';
-import { Header } from './Header';
+import Header from './Header';
 import InputTodo from './InputTodo';
 
 export default class TodoContainer extends Component {

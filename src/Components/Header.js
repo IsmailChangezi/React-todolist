@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const Header = () => {
+export default function Header() {
   const headerStyle = {
     padding: '20px 0',
     lineHeight: '1.5em',
@@ -22,4 +22,4 @@ export const Header = () => {
       </h1>
     </header>
   );
-};
+}
